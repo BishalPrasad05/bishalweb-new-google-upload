@@ -1,0 +1,106 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.skills-heading {
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 24px;
+  text-align: center;
+  color: #695aa6;
+  margin-top: 20px;
+}
+.skills-heading h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 40px;
+
+  padding: 0px;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 30px;
+  width: 70%;
+}
+
+.skill img {
+  width: 50px;
+}
+.skill-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border: 1px solid rgb(109, 104, 104);
+  width: 200px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.skill-level {
+  border-top: 1px solid rgb(109, 104, 104);
+  width: 100%;
+  text-align: center;
+}
+
+.skill-name-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  gap: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .skills-container{
+    margin: 0px;
+
+  }
+  .skills-heading h1{
+    font-size: 35px;
+  }
+  .skills-section{
+    /* width: 80px; */
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+  }
+  .skill{
+    width:129px;
+    padding: 0px;
+    /* gap: 0px; */
+  }
+  .skill-name-image{
+    gap:2px;
+  }
+  .skills-section{
+    gap: 0px;
+  }
+  .skills-heading{
+    margin-bottom: 0px;
+  }
+  .skills-heading h6{
+    margin-bottom: 10px;
+  }
+  
+}
